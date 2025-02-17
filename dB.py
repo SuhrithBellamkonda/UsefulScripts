@@ -13,10 +13,10 @@ def dbi(gain):
     return 10 * math.log10(gain)
 
 def dbm(power):
-    return 10 * math.log10(power / 0.001)
+    return 10 * math.log10(power)
 
 def dbv(voltage):
-    return 20 * math.log10(voltage / 1)
+    return 20 * math.log10(voltage)
 
 def calculate():
     choice = formula_choice.get()
